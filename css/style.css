@@ -159,6 +159,10 @@ body {
   height: 105px;
 }
 
+.category__wrapper {
+  margin-bottom: 20px;
+}
+
 .catalog-list {
   display: flex;
   gap: 35px;
@@ -171,10 +175,17 @@ body {
   height: 350px;
 }
 .catalog-item .catalog-item__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 12px;
   width: 100%;
   height: 250px;
   background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+}
+.catalog-item .catalog-item__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .catalog-item .catalog-item__name {
   margin-bottom: 2px;
