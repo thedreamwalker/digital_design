@@ -218,6 +218,7 @@ body {
 }
 
 .popup {
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -229,6 +230,10 @@ body {
   background-color: $color-background-white;
   overflow: auto;
   z-index: 2;
+
+  &.active {
+    display: block;
+  }
 }
 
 .popup__header {

@@ -1,3 +1,5 @@
+import setPopup from './popup.js';
+
 const catalog = async () => {
   const getData = async (url) =>  await (await fetch(url)).json();
   const allPlants = await getData('./js/plants.json');
@@ -25,21 +27,32 @@ const catalog = async () => {
       const element = document.createElement('li');
       element.classList.add('catalog-item');
 
-      element.innerHTML += `
-        <div class="catalog-item__img">
-          <img src="${this.img}" alt="${this.name}">
+      const img = document.createElement('div');
+      img.classList.add('catalog-item__img');
+      img.innerHTML = `<img src="${this.img}" alt="${this.name}">`;
+      element.append(img);
+
+      const info = document.createElement('div');
+      info.classList.add('catalog-item__info');
+
+      const text = document.createElement('div');
+      text.classList.add('catalog-item__text');
+      text.innerHTML = `<div class="catalog-item__name">
+        ${this.name}
         </div>
-        <div class="catalog-item__info">
-          <div class="catalog-item__text">
-            <div class="catalog-item__name">
-            ${this.name}
-            </div>
-            <div class="catalog-item__date">
-            ${this.date}
-            </div>
-          </div>
-          <button class="catalog-item__button button">Buy</button>
+        <div class="catalog-item__date">
+        ${this.date}
         </div>`;
+
+        const buttonBuy = document.createElement('button');
+        buttonBuy.classList.add('catalog-item__button', 'button');
+        buttonBuy.textContent = 'Buy';
+        buttonBuy.addEventListener('click', () => setPopup(this.img, this.name, 'new'));
+
+        info.append(text);
+        info.append(buttonBuy);
+        element.append(info);
+
       this.parent.append(element);
     }
   }
