@@ -99,7 +99,9 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
                 </li>
               </ul>
             </fieldset>
-          </div>`;
+          </div>
+          <div class="popup__comment">
+          <textarea name="comment" id="comment" placeholder="Если необходимо, впишите дополнительную информацию"></textarea></div>`;
 
           form.addEventListener('submit', (event) => submitOrder(event, this.img, this.name, 'done', popup, overlay));
 
