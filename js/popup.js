@@ -2,13 +2,40 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
   const popup = oldPopup || document.createElement('div');
   const overlay = oldOverlay || document.querySelector('.overlay');
 
+  const closePopup = () => {
+    if (popup.querySelector('textarea')) {
+      popup.querySelector('textarea').removeEventListener('input', changeCounter);
+    }
+    if (popup.querySelector('form')) {
+      popup.querySelector('form').removeEventListener('submit', submitOrder);
+    }
+    
+    popup.classList.remove('active');
+    popup.querySelectorAll('.button').forEach(elem => elem.removeEventListener('click', closePopup));
+    popup.remove();
+    overlay.classList.remove('active');
+    overlay.removeEventListener('click', closePopup);
+  }
+
   if (type === 'new') {
     popup.classList.add('popup', 'active');
     overlay.classList.add('active');
+    overlay.addEventListener('click', closePopup);
     document.body.append(popup);
   } else if (type === 'done') {
     popup.innerHTML = '';
   }
+
+  const submitOrder = (event, form, textarea, img, name, type, popup, overlay) => {
+    event.preventDefault();
+    form.removeEventListener('submit', submitOrder);
+    textarea.removeEventListener('input', changeCounter);
+    setPopup(img, name, type, popup, overlay);
+  }
+
+  const changeCounter = (span, value) => {
+      span.textContent = `${2000 - value.length}`;
+    }
 
 
   class Popup {
@@ -20,20 +47,6 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
   
     render() {
       popup.innerHTML = '';
-
-      const closePopup = () => {
-        popup.classList.remove('active');
-        popup.remove();
-        overlay.classList.remove('active');
-        buttonClose.removeEventListener('click', closePopup);
-      }
-
-      const submitOrder = (event, img, name, type, popup, overlay) => {
-        event.preventDefault();
-        console.log('Нифига');
-        setPopup(img, name, type, popup, overlay);
-        form.removeEventListener('submit', submitOrder);
-      }
 
       const img = this.type === 'new' ? '<img src="./assets/svg/icon_plant.svg" width="83" height="85">' : '<img src="./assets/svg/icon_letter.svg" width="65" height="80">';
       const text = this.type === 'new' ? 'Check the order details' : 'Your order has been received';
@@ -57,6 +70,7 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
       buttonClose.addEventListener('click', closePopup);
 
       if (type === 'new') {
+
         const form = document.createElement('form');
         form.classList.add('form');
         form.setAttribute('action', '#');
@@ -111,11 +125,11 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
           textarea.setAttribute('id', 'comment');
           textarea.setAttribute('maxlength', '2000');
           textarea.setAttribute('placeholder', 'Если необходимо, впишите дополнительную информацию');
-          textarea.addEventListener('input', () => span.textContent = `${2000 - textarea.value.length}`);
+          textarea.addEventListener('input', () => changeCounter(span, textarea.value));
           comment.append(textarea);
           form.append(comment);
 
-          form.addEventListener('submit', (event) => submitOrder(event, this.img, this.name, 'done', popup, overlay));
+          form.addEventListener('submit', (event) => submitOrder(event, form, textarea, this.img, this.name, 'done', popup, overlay));
 
           const buttonOrder = document.createElement('button');
           buttonOrder.classList.add('button');
