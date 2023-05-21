@@ -99,9 +99,21 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
                 </li>
               </ul>
             </fieldset>
-          </div>
-          <div class="popup__comment">
-          <textarea name="comment" id="comment" placeholder="Если необходимо, впишите дополнительную информацию"></textarea></div>`;
+          </div>`;
+
+          const comment = document.createElement('div');
+          comment.classList.add('popup__comment');
+          const span = document.createElement('span');
+          span.textContent = '2000';
+          comment.append(span);
+          const textarea = document.createElement('textarea');
+          textarea.setAttribute('name', 'comment');
+          textarea.setAttribute('id', 'comment');
+          textarea.setAttribute('maxlength', '2000');
+          textarea.setAttribute('placeholder', 'Если необходимо, впишите дополнительную информацию');
+          textarea.addEventListener('input', () => span.textContent = `${2000 - textarea.value.length}`);
+          comment.append(textarea);
+          form.append(comment);
 
           form.addEventListener('submit', (event) => submitOrder(event, this.img, this.name, 'done', popup, overlay));
 

@@ -59,6 +59,10 @@ img {
   display: flex;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -127,6 +131,12 @@ body {
 }
 .menu ul .menu__item {
   font-size: 16px;
+}
+.menu ul .menu__item a {
+  text-decoration: none;
+}
+.menu ul .menu__item a:hover {
+  border-bottom: 2px solid #46A358;
 }
 
 .theme-switcher__button {
@@ -228,7 +238,7 @@ body {
   right: 0;
   margin: auto;
   width: 578px;
-  height: 490px;
+  height: 505px;
   background-color: #ffffff;
   overflow: auto;
   z-index: 2;
@@ -297,7 +307,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 5px;
   background-color: #FBFBFB;
 }
@@ -384,8 +394,16 @@ body {
 .popup__comment {
   margin-bottom: 20px;
 }
+.popup__comment span {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  padding: 2px 5px;
+  color: #46A358;
+}
 .popup__comment textarea {
   width: 100%;
+  min-height: 60px;
   padding: 5px;
   border: 2px solid #46A358;
   border-radius: 5px;

@@ -47,6 +47,10 @@ img {
   display: flex;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   margin: 0; 
@@ -117,6 +121,16 @@ body {
 
   .menu__item {
     font-size: 16px;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        border-bottom: 2px solid $color-accent;
+      }
+    }
+    
+
   }
 }
 
@@ -228,7 +242,7 @@ body {
   right: 0;
   margin: auto;
   width: 578px;
-  height: 490px;
+  height: 505px;
   background-color: $color-background-white;
   overflow: auto;
   z-index: 2;
@@ -303,7 +317,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 5px;
   background-color: $color-background-product;
 
@@ -422,8 +436,17 @@ body {
 .popup__comment {
   margin-bottom: 20px;
 
+  & span {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    padding: 2px 5px;
+    color: $color-accent;
+  }
+
   textarea {
     width: 100%;
+    min-height: 60px;
     padding: 5px;
     border: 2px solid $color-accent;
     border-radius: 5px;

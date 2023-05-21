@@ -68,6 +68,7 @@ const catalog = async () => {
       const h2 = document.createElement('h2');
       div.classList.add('category__wrapper');
       h2.classList.add('title');
+      h2.setAttribute('id', `${category.replaceAll(' ', '')}`);
       h2.textContent = category;
       const ul = document.createElement('ul');
       ul.classList.add('catalog-list');
