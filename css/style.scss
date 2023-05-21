@@ -94,6 +94,7 @@ body {
   line-height: 36px;
   text-align: center;
   color: $color-text-dark;
+  scroll-margin-top: 80px;
 
 }
 
@@ -123,10 +124,25 @@ body {
     font-size: 16px;
 
     a {
+      position: relative;
+      padding-bottom: 2px;
+      color: $color-text-primary;
       text-decoration: none;
 
-      &:hover {
-        border-bottom: 2px solid $color-accent;
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: $color-accent;
+        transition: width 0.5s ease-in-out;
+      }
+
+      &:hover::before {
+        width: 100%;
+        transition: width 0.5s ease-in-out;
       }
     }
     
@@ -242,7 +258,7 @@ body {
   right: 0;
   margin: auto;
   width: 578px;
-  height: 505px;
+  height: 506px;
   background-color: $color-background-white;
   overflow: auto;
   z-index: 2;
