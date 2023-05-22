@@ -151,13 +151,14 @@ body {
 .menu ul .menu__item {
   font-size: 16px;
 }
-.menu ul .menu__item a {
+
+a {
   position: relative;
   padding-bottom: 2px;
   color: #727272;
   text-decoration: none;
 }
-.menu ul .menu__item a::before {
+a::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -167,7 +168,7 @@ body {
   background-color: #46A358;
   transition: width 0.5s ease-in-out;
 }
-.menu ul .menu__item a:hover::before {
+a:hover::before {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
@@ -260,6 +261,14 @@ body {
 }
 .catalog-item .catalog-item__date {
   margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 23px 53px 23px;
+  background-color: rgba(70, 163, 88, 0.06);
 }
 
 .popup {

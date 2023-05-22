@@ -141,31 +141,29 @@ body {
 
   .menu__item {
     font-size: 16px;
+  }
+}
 
-    a {
-      position: relative;
-      padding-bottom: 2px;
-      color: $color-text-primary;
-      text-decoration: none;
+a {
+  position: relative;
+  padding-bottom: 2px;
+  color: $color-text-primary;
+  text-decoration: none;
 
-      &::before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 1px;
-        background-color: $color-accent;
-        transition: width 0.5s ease-in-out;
-      }
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: $color-accent;
+    transition: width 0.5s ease-in-out;
+  }
 
-      &:hover::before {
-        width: 100%;
-        transition: width 0.5s ease-in-out;
-      }
-    }
-    
-
+  &:hover::before {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
   }
 }
 
@@ -266,6 +264,14 @@ body {
   .catalog-item__date {
     margin-bottom: 10px;
   }
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 23px 53px 23px;
+  background-color: rgba(70, 163, 88, 0.06);
 }
 
 .popup {
