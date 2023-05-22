@@ -1,3 +1,4 @@
+import dateTransform from './date-transform.js';
 import setPopup from './popup.js';
 
 const catalog = async () => {
@@ -41,7 +42,7 @@ const catalog = async () => {
         ${this.name}
         </div>
         <div class="catalog-item__date">
-        ${this.date}
+        ${dateTransform(this.date)}
         </div>`;
 
         const buttonBuy = document.createElement('button');
