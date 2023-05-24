@@ -1,4 +1,6 @@
 # Задание для digital design
+## [Ссылка на деплой](https://thedreamwalker.github.io/digital_design/)
+***
 
 Разработана веб-страница с использованием HTML, SCSS, JavaScript, страница адаптирована.
 
