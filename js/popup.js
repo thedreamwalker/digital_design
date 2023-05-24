@@ -10,9 +10,14 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
       popup.querySelector('form').removeEventListener('submit', submitOrder);
     }
     
-    popup.classList.remove('active');
-    popup.querySelectorAll('.button').forEach(elem => elem.removeEventListener('click', closePopup));
-    popup.remove();
+    popup.classList.add('hide');
+      
+    popup.addEventListener('animationend', () => {
+      popup.querySelectorAll('.button').forEach(elem => elem.removeEventListener('click', closePopup));
+      popup.classList.remove('active');
+      popup.remove();
+    }, {once: true})
+  
     overlay.classList.remove('active');
     overlay.removeEventListener('click', closePopup);
   }
@@ -66,6 +71,7 @@ const setPopup = (productImg, productName, type, oldPopup, oldOverlay) => {
 
       const buttonClose = document.createElement('button');
       buttonClose.classList.add('button');
+      buttonClose.setAttribute('type', 'button');
       buttonClose.textContent = 'Close';
       buttonClose.addEventListener('click', closePopup);
 
