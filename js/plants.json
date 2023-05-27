@@ -54,302 +54,254 @@
     "date": "19.09.2022"
   },
   {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
+    "img": "./assets/img/houseplant_peace.png",
+    "name": "Houseplant Peace",
     "category": "Small Plants",
-    "date": "2.02.2023"
+    "date": "20.03.2023"
   }, {
-    "img": "./assets/img/barberton_daisy.png",
-    "name": "Barberton Daisy",
+    "img": "./assets/img/plants_flower_floristry_terrarium_glass.png",
+    "name": "Plants Flower Floristry Terrarium Glass",
     "category": "Trerrariums",
-    "date": "2.01.2022"
+    "date": "8.08.2022"
   },
   {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
+    "img": "./assets/img/arecaceae_plant.png",
+    "name": "Arecaceae Plant",
+    "category": "Small Plants",
+    "date": "24.01.2023"
+  },
+  {
+    "img": "./assets/img/howea_forsteriana.png",
+    "name": "Howea forsteriana",
+    "category": "Big Plants",
+    "date": "07.04.2023"
+  },
+  {
+    "img": "./assets/img/houseplant_dragon.png",
+    "name": "Houseplant Dragon",
+    "category": "Small Plants",
+    "date": "26.11.2022"
+  },
+  {
+    "img": "./assets/img/snake_plant.png",
+    "name": "Snake Plant",
+    "category": "Small Plants",
+    "date": "16.12.2022"
+  },
+  {
+    "img": "./assets/img/succulent_plant.png",
+    "name": "Succulent Plant",
+    "category": "Succulents",
+    "date": "22.03.2023"
+  },
+  {
+    "img": "./assets/img/green_leafed.png",
+    "name": "Green Leafed",
+    "category": "Big Plants",
+    "date": "1.07.2022"
+  },
+  {
+    "img": "./assets/img/terrarium_stained_glass_geometry_plant.png",
+    "name": "Terrarium Stained glass Geometry Plant",
+    "category": "Trerrariums",
+    "date": "09.04.2023"
+  },
+  {
+    "img": "./assets/img/green_succulent_plants.png",
+    "name": "Green Succulent Plants",
+    "category": "Succulents",
+    "date": "10.09.2022"
+  },
+  {
+    "img": "./assets/img/albizia_julibrissin.png",
+    "name": "Albizia julibrissin",
+    "category": "Small Plants",
+    "date": "14.02.2023"
+  },
+  {
+    "img": "./assets/img/succulent_plant_flowerpot.png",
+    "name": "Succulent plant Flowerpot",
+    "category": "Succulents",
+    "date": "18.05.2023"
+  },
+  {
+    "img": "./assets/img/houseplant_tree_soil.png",
+    "name": "Houseplant Tree Soil",
+    "category": "Big Plants",
+    "date": "21.04.2022"
+  },
+  {
+    "img": "./assets/img/terrarium_glass_bell.png",
+    "name": "Terrarium Glass Bell",
+    "category": "Trerrariums",
+    "date": "22.12.2022"
+  },
+  {
+    "img": "./assets/img/succulents_combination_pot.png",
+    "name": "Succulents combination pot",
+    "category": "Succulents",
+    "date": "12.08.2022"
+  },
+  {
+    "img": "./assets/img/floristry_flowerpot.png",
+    "name": "Floristry Flowerpot",
+    "category": "Small Plants",
+    "date": "7.02.2023"
+  },
+  {
+    "img": "./assets/img/kalanchoe.png",
+    "name": "Kalanchoe",
+    "category": "Succulents",
+    "date": "8.03.2023"
+  },
+  {
+    "img": "./assets/img/ravenea_houseplant.png",
+    "name": "Ravenea Houseplant",
+    "category": "Big Plants",
+    "date": "27.06.2022"
+  },
+  {
+    "img": "./assets/img/succulent_plant_cactaceae_terrarium.png",
+    "name": "Succulent plant Cactaceae Terrarium",
+    "category": "Trerrariums",
+    "date": "14.03.2023"
+  },
+  {
+    "img": "./assets/img/vipers_bowstring_hemp.png",
+    "name": "Viper's bowstring hemp",
+    "category": "Succulents",
+    "date": "9.09.2022"
+  },
+  {
+    "img": "./assets/img/plant_leaf.png",
+    "name": "Plant Leaf",
+    "category": "Small Plants",
+    "date": "14.04.2023"
+  },
+  {
+    "img": "./assets/img/terrarium_reptile_vivarium.png",
+    "name": "Terrarium Reptile Vivarium",
+    "category": "Trerrariums",
+    "date": "27.11.2022"
+  },
+  {
+    "img": "./assets/img/flowerpot_parrot.png",
+    "name": "Flowerpot Parrot",
     "category": "Small Plants",
     "date": "28.01.2023"
   },
   {
-    "img": "./assets/img/african_violet.png",
-    "name": "African Violet",
+    "img": "./assets/img/red_leaved_potted.png",
+    "name": "Red Leaved potted",
     "category": "Big Plants",
-    "date": "18.04.2023"
+    "date": "30.04.2023"
   },
   {
-    "img": "./assets/img/beach_spider_lily.png",
-    "name": "Beach Spider Lily",
+    "img": "./assets/img/ficus_retusa.png",
+    "name": "Ficus retusa",
     "category": "Small Plants",
     "date": "21.07.2022"
   },
   {
-    "img": "./assets/img/blushing_bromeliad.png",
-    "name": "Blushing Bromeliad",
+    "img": "./assets/img/cape_jasmine.png",
+    "name": "Cape jasmine",
     "category": "Small Plants",
-    "date": "15.02.2022"
+    "date": "11.11.2022"
   },
   {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
+    "img": "./assets/img/floristry.png",
+    "name": "Floristry",
     "category": "Succulents",
-    "date": "8.03.2023"
+    "date": "4.01.2023"
   },
   {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/broadleaf_lady_palm.png",
-    "name": "Broadleaf Lady Palm",
+    "img": "./assets/img/flowerpot_succulent.png",
+    "name": "Flowerpot Succulent",
     "category": "Trerrariums",
-    "date": "07.02.2023"
+    "date": "11.09.2022"
   },
   {
-    "img": "./assets/img/chinese_evergreen.png",
-    "name": "Chinese Evergreen",
-    "category": "Succulents",
-    "date": "19.09.2022"
-  },
-  {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
+    "img": "./assets/img/flowerpot_zanzibar.png",
+    "name": "Flowerpot Zanzibar",
     "category": "Small Plants",
-    "date": "2.02.2023"
+    "date": "26.04.2023"
   },
   {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
-    "category": "Succulents",
-    "date": "8.03.2023"
-  },
-  {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/broadleaf_lady_palm.png",
-    "name": "Broadleaf Lady Palm",
-    "category": "Trerrariums",
-    "date": "07.02.2023"
-  },
-  {
-    "img": "./assets/img/chinese_evergreen.png",
-    "name": "Chinese Evergreen",
-    "category": "Succulents",
-    "date": "19.09.2022"
-  },
-  {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
-    "category": "Small Plants",
-    "date": "2.02.2023"
-  },
-  {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
-    "category": "Succulents",
-    "date": "8.03.2023"
-  },
-  {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/broadleaf_lady_palm.png",
-    "name": "Broadleaf Lady Palm",
-    "category": "Trerrariums",
-    "date": "07.02.2023"
-  },
-  {
-    "img": "./assets/img/chinese_evergreen.png",
-    "name": "Chinese Evergreen",
-    "category": "Succulents",
-    "date": "19.09.2022"
-  },
-  {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
-    "category": "Small Plants",
-    "date": "2.02.2023"
-  },
-  {
-    "img": "./assets/img/barberton_daisy.png",
-    "name": "Barberton Daisy",
-    "category": "Trerrariums",
-    "date": "2.01.2022"
-  },
-  {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
-    "category": "Small Plants",
-    "date": "28.01.2023"
-  },
-  {
-    "img": "./assets/img/african_violet.png",
-    "name": "African Violet",
+    "img": "./assets/img/green_rubber_plant.png",
+    "name": "Green Rubber plant",
     "category": "Big Plants",
     "date": "18.04.2023"
   },
   {
-    "img": "./assets/img/beach_spider_lily.png",
-    "name": "Beach Spider Lily",
+    "img": "./assets/img/strelitzia_nicolai.png",
+    "name": "Strelitzia nicolai",
     "category": "Small Plants",
-    "date": "21.07.2022"
+    "date": "1.07.2022"
   },
   {
-    "img": "./assets/img/blushing_bromeliad.png",
-    "name": "Blushing Bromeliad",
+    "img": "./assets/img/grasses_plant.png",
+    "name": "Grasses Plant",
     "category": "Small Plants",
-    "date": "15.02.2022"
+    "date": "17.12.2022"
   },
   {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
+    "img": "./assets/img/cvetlicarna_rosa_vita.png",
+    "name": "Cvetličarna Rosa Vita",
     "category": "Succulents",
-    "date": "8.03.2023"
+    "date": "5.05.2023"
   },
   {
-    "img": "./assets/img/barberton_daisy.png",
-    "name": "Barberton Daisy",
+    "img": "./assets/img/orange_birds_of_paradise.png",
+    "name": "Orange Birds of Paradise",
+    "category": "Big Plants",
+    "date": "14.07.2022"
+  },
+  {
+    "img": "./assets/img/akwaterrarium.png",
+    "name": "Akwaterrarium",
+    "category": "Trerrariums",
+    "date": "30.03.2023"
+  },
+  {
+    "img": "./assets/img/leuchtenbergia.png",
+    "name": "Leuchtenbergia",
+    "category": "Succulents",
+    "date": "13.02.2022"
+  },
+  {
+    "img": "./assets/img/terrarium_succulent.png",
+    "name": "Terrarium Succulent",
     "category": "Trerrariums",
     "date": "2.01.2022"
   },
   {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
+    "img": "./assets/img/rubber.png",
+    "name": "Rubber",
+    "category": "Big Plants",
+    "date": "7.02.2023"
+  },
+  {
+    "img": "./assets/img/arranging.png",
+    "name": "Arranging",
     "category": "Small Plants",
-    "date": "28.01.2023"
+    "date": "16.06.2022"
   },
   {
-    "img": "./assets/img/african_violet.png",
-    "name": "African Violet",
-    "category": "Big Plants",
-    "date": "18.04.2023"
+    "img": "./assets/img/cactaceae_euclidean.png",
+    "name": "Cactaceae Euclidean",
+    "category": "Succulents",
+    "date": "27.03.2023"
   },
   {
-    "img": "./assets/img/beach_spider_lily.png",
-    "name": "Beach Spider Lily",
+    "img": "./assets/img/lowerpot_houseplant.png",
+    "name": "Lowerpot Houseplant",
     "category": "Small Plants",
-    "date": "21.07.2022"
+    "date": "27.05.2023"
   },
   {
-    "img": "./assets/img/blushing_bromeliad.png",
-    "name": "Blushing Bromeliad",
+    "img": "./assets/img/pink_laceleaf.png",
+    "name": "Pink Laceleaf",
     "category": "Small Plants",
-    "date": "15.02.2022"
-  },
-  {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
-    "category": "Succulents",
-    "date": "8.03.2023"
-  },
-  {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/broadleaf_lady_palm.png",
-    "name": "Broadleaf Lady Palm",
-    "category": "Trerrariums",
-    "date": "07.02.2023"
-  },
-  {
-    "img": "./assets/img/chinese_evergreen.png",
-    "name": "Chinese Evergreen",
-    "category": "Succulents",
-    "date": "19.09.2022"
-  },
-  {
-    "img": "./assets/img/barberton_daisy.png",
-    "name": "Barberton Daisy",
-    "category": "Trerrariums",
-    "date": "2.01.2022"
-  },
-  {
-    "img": "./assets/img/african_violet.png",
-    "name": "African Violet",
-    "category": "Big Plants",
-    "date": "18.04.2023"
-  },
-  {
-    "img": "./assets/img/beach_spider_lily.png",
-    "name": "Beach Spider Lily",
-    "category": "Small Plants",
-    "date": "21.07.2022"
-  },
-  {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
-    "category": "Succulents",
-    "date": "8.03.2023"
-  },
-  {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/chinese_evergreen.png",
-    "name": "Chinese Evergreen",
-    "category": "Succulents",
-    "date": "19.09.2022"
-  },
-  {
-    "img": "./assets/img/angel_wing_begonia.png",
-    "name": "Angel Wing Begonia",
-    "category": "Small Plants",
-    "date": "2.02.2023"
-  },
-  {
-    "img": "./assets/img/aluminum_plant.png",
-    "name": "Aluminum Plant",
-    "category": "Succulents",
-    "date": "8.03.2023"
-  },
-  {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/chinese_evergreen.png",
-    "name": "Chinese Evergreen",
-    "category": "Succulents",
-    "date": "19.09.2022"
-  },
-  {
-    "img": "./assets/img/bird's_nest_fern.png",
-    "name": "Bird's Nest Fern",
-    "category": "Big Plants",
-    "date": "11.05.2022"
-  },
-  {
-    "img": "./assets/img/broadleaf_lady_palm.png",
-    "name": "Broadleaf Lady Palm",
-    "category": "Trerrariums",
-    "date": "07.02.2023"
-  },
-  {
-    "img": "./assets/img/barberton_daisy.png",
-    "name": "Barberton Daisy",
-    "category": "Trerrariums",
-    "date": "2.01.2022"
-  },
-  {
-    "img": "./assets/img/african_violet.png",
-    "name": "African Violet",
-    "category": "Big Plants",
-    "date": "18.04.2023"
+    "date": "8.02.2022"
   }
 ]
